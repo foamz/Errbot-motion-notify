@@ -1,0 +1,20 @@
+# Configure values for the gmail/jabber account that will receive notification
+# Should work with any jabber account too
+
+# Define your gmail/jabber account
+EMAIL=your-gmail-username@gmail.com
+
+# Define the days you want to be notified
+DAYOFWEEK=( "Mon" "Tue" "Wed" "Thu" "Fri" )
+
+# Define the FROM and TO time, between which you will be notified on the above days
+FROMTIME=725
+TOTIME=1640
+
+# Below allows you to dynamically switch notifications off during the above configured time
+# 0 = off | 1 = on
+ONOFF=1
+
+# Below we force notifications to be on/off, regardless of what is set above
+# By default it is 0. If set to 1, any time condition will be ignored
+FORCEON=0

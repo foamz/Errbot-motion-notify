@@ -1,0 +1,6 @@
+[Core]
+Name = whoami
+Module = whoami
+
+[Documentation]
+Description = whoami will have errbot return your JID

@@ -1,0 +1,6 @@
+[Core]
+Name = notify
+Module = notify
+
+[Documentation]
+Description = Turns motion notifications ON or OFF
